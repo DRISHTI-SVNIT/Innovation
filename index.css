@@ -121,7 +121,7 @@ body
 .main-div{
     width: 100%;
     height: 100vh;
-    background-image: url(images/reforester5.jpg);
+    background-image: url(images/Team_innovation.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -190,10 +190,10 @@ body
     padding: 40px 150px 40px 150px;
     background-color: #202328;
     color: #f8fafd;
-    background-image: url(solar/image_1.jpg);
+    background-image: url(images/reforester5.jpg);
     background-blend-mode: overlay;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-shadow: 0px 0px 30px rba(0,0,0,0.5);
@@ -421,7 +421,7 @@ body
         /* height: 75px; */
         width: 130px;
         height: auto;
-
+    }
     .innovation-section p{
         font-size: 17px;
         text-align: justify;
