@@ -103,8 +103,16 @@ body
 }
 
 
-
-
+.carousel-inner{
+    height: fit-content;
+    width:auto;
+    align-content: center;
+}
+.img-fluid{
+    align-self: auto;
+    width: 50vw;
+    height: auto;
+}
 
 
 
