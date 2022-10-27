@@ -100,18 +100,20 @@ body
 {
     font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
+    background-image: url(images/s.jpg);
 }
 
 
 .carousel-inner{
     height: fit-content;
     width:auto;
-    align-content: center;
+    align-content: center;   
 }
 .img-fluid{
     align-self: auto;
     width: 50vw;
     height: auto;
+    border: 1px solid black;
 }
 
 

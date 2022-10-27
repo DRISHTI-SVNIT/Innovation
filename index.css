@@ -123,7 +123,7 @@ body
     height: 100vh;
     background-image: url(images/Team_innovation.jpg);
     background-size:contain;
-    background-position: bottom;
+    background-position:center;
     background-repeat: no-repeat;
     box-shadow: 0px -160px 500px 120px rgba(0, 0, 0, 1) inset, 0px 70px 90px 20px rgba(0, 0, 0, 1) inset;
 }
@@ -152,7 +152,7 @@ body
     font-weight: bolder;
     letter-spacing: 10px;
     font-size: 110px;
-    padding-bottom: 50px;
+    padding-bottom: 3vw;
 }
 
 .about-section{
@@ -315,15 +315,14 @@ body
         margin-bottom: 0px;
     }
 
-    .main-div{
+    /* .main-div{
         width: 100%;
         height: 95vh;
-        background-image: none;
-        background-color: transparent;
+        background-image: url(images/Team_innovation.jpg);
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0) inset;
-    }
+    } */
 
-    .innovation-image{
+    /* .innovation-image{
         position: relative;
         display: flex;
         justify-content: center;
@@ -344,19 +343,19 @@ body
         text-align: center;
         color: #fefefe;
         text-shadow: 0 0 15px rgba(0,0,0,0.5);
-    }
+    } */
 
     .innovation-image .innovation-title h3{
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 40px;
-        padding-top: 20px;
+        font-size: 0px;
+        padding-top: 10px;
     }
 
     .innovation-image .innovation-title h1{
         font-weight: bolder;
         letter-spacing: 6px;
-        font-size: 60px;
+        font-size: 20px;
         padding-bottom: 0px;
     }
 
@@ -400,7 +399,7 @@ body
         padding: 20px 20px 20px 20px;
         background-color: #202328;
         color: #f8fafd;
-        background-image: url(solar/image_1.jpg);
+        background-image: url(images/reforester5.jpg);
         background-blend-mode: overlay;
         background-size: cover;
         background-position: top;
