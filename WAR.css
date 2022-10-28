@@ -119,11 +119,10 @@ body
     width: 100%;
     height: 100vh;
     background-image: url(images/WAR1.jpeg);
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
+    background-size:contain;
+    background-position:center;
     background-repeat: no-repeat;
-    box-shadow: 0px -170px 180px 50px rgba(0, 0, 0, 0.9) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
 }
 
 .ref-image{
@@ -141,21 +140,21 @@ body
 
 .ref-image .ref-title h3{
     font-weight: bold;
-    letter-spacing: 8px;
-    font-size: 30px;
-    padding-bottom: 50px;
+    letter-spacing: 0.7vw;
+    font-size: 3vw;
+    padding-bottom: 4vw;
 }
 
 .ref-image .ref-title h1{
     font-weight: bolder;
-    letter-spacing: 10px;
-    font-size: 70px;
+    letter-spacing: 0.5vw;
+    font-size: 5vw;
     padding-bottom: 0;
 }
 
 .ref-aim{
     text-align: center;
-    padding: 40px 10%;
+    padding: 3vw 10%;
 }
 
 .ref-aim h1{
@@ -387,15 +386,15 @@ a.sub-link-button:hover{
         margin-top: 0px;
         margin-bottom: 0px;
     }
-
+/* 
     .main-div{
         width: 100%;
         height: auto;
         background-image: none;
         background-color: darkgray;
-    }
+    } */
 
-    .ref-image{
+    /* .ref-image{
         height: 45vh;
         background-image: url(images/envision/roverlink.jpg);
         background-size: cover;
@@ -405,9 +404,9 @@ a.sub-link-button:hover{
         box-shadow: 0px -50px 100px 20px rgba(0, 0, 0, 0.9) inset, 0px 10px 50px 10px rgba(0, 0, 0, 0.4) inset;
         display: flex;
         justify-content: center;
-    }
+    } */
 
-    .ref-image .ref-title{
+    /* .ref-image .ref-title{
         top: 25vh;
         position: relative;
         text-align: center;
@@ -421,13 +420,42 @@ a.sub-link-button:hover{
         font-size: 21px;
         padding-bottom: 20px;
     }
-
+    
     .ref-image .ref-title h1{
         font-weight: bolder;
         letter-spacing: 7px;
         font-size: 50px;
-    }
+    } */
 
+    .ref-aim h1{
+        font-size: 30px;
+    }
+    
+    .ref-aim p{
+        font-size: 15px;
+    }
+    
+    
+    
+    .subsystems-link{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+    
+    .sub-head{
+        background-color: rgb(24, 30, 40);
+        text-align: left;
+        padding: 40px 10% 40px 10%;
+    }
+    
+    .sub-head h1{
+        font-size: 45px;
+        font-weight: bold;
+        text-align: left;
+        color: white;
+    }
+/* -------------------------------------------------------------------------------------------------------------- */
     .ref-intro{
         margin-top: 10px;
         margin-bottom: 20px;
