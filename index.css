@@ -338,28 +338,18 @@ body
             bottom 90px left 0px;
         background-repeat: no-repeat;
     } */
+    .innovation-title{
+        padding-bottom: 3vw;
+    }
+    .innovation-image .innovation-title h3{
+        font-size: 7vw;
+        padding-bottom: 0;
+    }
 
-    /* .innovation-image .innovation-title{
-        top: 20px;
-        position: absolute;
-        text-align: center;
-        color: #fefefe;
-        text-shadow: 0 0 15px rgba(0,0,0,0.5);
-    } */
-
-    /* .innovation-image .innovation-title h3{
-        font-weight: bold;
-        letter-spacing: 6px;
-        font-size: 0px;
-        padding-top: 10px;
-    } */
-
-    /* .innovation-image .innovation-title h1{
-        font-weight: bolder;
-        letter-spacing: 6px;
-        font-size: 20px;
-        padding-bottom: 0px;
-    } */
+    .innovation-image .innovation-title h1{
+        font-size: 12vw;
+        padding-top: 0;
+    }
 
     .about-section{
         display: grid;
