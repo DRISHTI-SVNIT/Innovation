@@ -323,6 +323,7 @@ body
     } */
     .main-div{
         background-image: url(images/Team_innovation2.jpg);
+         height: 130vw;
     }
     /* .innovation-image{
         position: relative;
@@ -339,7 +340,7 @@ body
         background-repeat: no-repeat;
     } */
     .innovation-title{
-        padding-bottom: 3vw;
+        padding-bottom: 13vw;
     }
     .innovation-image .innovation-title h3{
         font-size: 7vw;
@@ -590,6 +591,9 @@ body
         font-weight: bolder;
         letter-spacing: 2px;
         padding: 30px;
+    }
+    .innovation-title{
+        padding-bottom: 43vw;
     }
 }
 @media(max-width:978px)
