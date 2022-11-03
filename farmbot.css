@@ -768,7 +768,7 @@ a.sub-link-button:hover{
     }
     .ref-image .ref-title{
         position: relative;
-        top: 100px;
+        top: 10px;
     }
 }
 @media(max-width:978px)
