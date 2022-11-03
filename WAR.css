@@ -769,7 +769,7 @@ a.sub-link-button:hover{
         box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
     }
     .ref-image .ref-title{
-        position: absolute;
+        position: relative;
         top: 100px;
     }
 }
