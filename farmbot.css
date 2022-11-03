@@ -387,6 +387,9 @@ a.sub-link-button:hover{
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .main-div{
+        height: 130vw;
+    }
 /* 
     .main-div{
         width: 100%;
@@ -427,7 +430,9 @@ a.sub-link-button:hover{
         letter-spacing: 7px;
         font-size: 50px;
     } */
-
+    .ref-image .ref-title{
+        padding-bottom: 17vw;
+    }
     .ref-aim h1{
         font-size: 30px;
     }
@@ -750,12 +755,20 @@ a.sub-link-button:hover{
      padding-top: 50px;
     padding-right: 50px;
 }
-@media(max-width:450px)
+@media(max-width:460px)
 {
     .dob
     {
         padding-right: 0px;
         padding-left:0px;
+    }
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .ref-image .ref-title{
+        position: absolute;
+        top: 100px;
     }
 }
 @media(max-width:978px)
