@@ -107,14 +107,6 @@ body
     overflow-x: hidden;
 }
 
-
-
-
-
-
-
-
-
 .main-div{
     width: 100%;
     height: 100vh;
@@ -402,7 +394,7 @@ a.sub-link-button:hover{
         background-color: darkgray;
     } */
     .main-div{
-        background-image: url(images/WAR8.jpeg);
+        background-image: url(images/SWEEP/SWEEP_Proto2.jpg);
         height: 130vw;
         /* background-position: bottom;
         box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
