@@ -81,8 +81,6 @@
             <li class="nav-item" style="font-weight: bold; margin-right: 20px">
               <a href="../index.html" class="nav-link">Home</a>
             </li>
-            <!-- <li class="nav-item"style="font-weight: bold; margin-right: 20px;"><a href="../gallery.html" class="nav-link">Gallery</a></li>
-             -->
             <li
               class="nav-item dropdown"
               style="font-weight: bold; margin-right: 20px"
@@ -93,14 +91,17 @@
                 data-toggle="dropdown"
                 >Subsystems</a
               >
-              <!-- <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+              <!--   <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
                     <a href="mechanical.html" class="dropdown-item">
                         MECHANICAL
                     </a>
-                </div>  -->
+                </div> -->
             </li>
             <!-- <li class="nav-item dropdown "style="font-weight: bold;  margin-right: 40px;">
                 <a href="../index.html" class="nav-link dropdown-toogle" data-toggle="dropdown">Projects</a>
+            </li> -->
+            <!-- <li class="nav-item" style="font-weight: bold; margin-right: 40px">
+              <a href="#down" class="nav-link">Contact</a>
             </li> -->
             <!-- <li class="nav-item"style="font-weight: bold; margin-right: 40px;"><a href="#down" class="nav-link">Contact</a></li> -->
           </ul>
@@ -116,12 +117,14 @@
     </div>
 
     <div class="topics">
-      <div class="cards">
+      <!--<div class="cards">
         <div class="images">
-          <img src="../images/rbpilogo.png" alt="Raspberry-Pi" />
+            <img src="../images/rbpilogo.png" alt="Raspberry-Pi">
         </div>
-        <a href="#pi"> Raspberry-Pi </a>
-      </div>
+        <a href="#pi">
+            Raspberry-Pi
+        </a>
+    </div> -->
       <div class="cards">
         <div class="images">
           <img src="../images/roslogo.png" alt="ROS" />
@@ -130,21 +133,30 @@
       </div>
       <div class="cards">
         <div class="images">
-          <img src="../images/arduinologo.png" alt="Arduino Mega" />
+          <img src="../images/gazebologo.png" alt="Gazebo" />
         </div>
-        <a href="#arduino"> Arduino Mega </a>
+        <a href="#Gazebo"> Gazebo </a>
       </div>
       <div class="cards">
         <div class="images">
-          <img src="../images/actuationlogo2.png" alt="Actuation" />
+          <img src="../images/sensorlogo.jpg" alt="Sensors" />
         </div>
-        <a href="#actuation"> Actuation </a>
+        <br />
+        <a href="#Sensors"> Sensors </a>
       </div>
       <div class="cards">
         <div class="images">
-          <img src="../images/locationlogo.png" alt="Location detection" />
+          <img src="../images/algologo.png" alt="Algo" />
         </div>
-        <a href="#location"> Location Detection </a>
+        <br />
+        <a href="#Algo"> Autonomous Algorithms </a>
+      </div>
+      <div class="cards">
+        <div class="images">
+          <img src="../images/DLlogo.png" alt="Deep Learning" />
+        </div>
+        <br />
+        <a href="#DL"> Deep Learning </a>
       </div>
     </div>
 
@@ -152,31 +164,32 @@
     <hr />
     <br />
 
-    <div class="subs" id="pi">
-      <div class="sub-text-full">
-        <h1>RASPBERRY-PI</h1>
-        <p>
-          It runs on Ubuntu 18.04LTS instead of Inbuilt RaspbianOS.
-          <br />
-          And also has ROS installed in it to handles communication between the
-          user and the bot.
-        </p>
-      </div>
+    <div class="sub-text-full">
+      <h1 style="text-align: center">AIM</h1>
+      <p>
+        To successfully operate SWEEP, we extensively used ROS for algorithm
+        designing and testing, AI/ML for waste segregation and traversal,
+        Various sensors involved in sensing wastes, obstacles etc.
+        <br />
+        With help of these we developed an autonomous Algorithm for ultimate
+        movement which forms the core of the robot.
+        <br />
+      </p>
     </div>
-
     <br />
     <hr />
     <br />
 
     <div class="subs" id="ros">
       <div class="sub-text-full">
-        <h1>ROS (ROBOT OPERATING SYSTEM)</h1>
+        <h1 style="text-align: center">ROS (ROBOT OPERATING SYSTEM)</h1>
         <p>
-          It is a package available for Linux-OS and is mainly made to control
-          robots.
+          ROS is a pseudo operating system mainly used in Linux OS. It provides
+          various tools like the RViz, Gazebo etc. ROS greatly enhances our
+          capability for simulation and testing of our models in real world like
+          scenarios including obstacles, different paths etc.
           <br />
-          It has been used to take data from the user(generally using a
-          controller), send data to Raspberry-Pi and to control Arduino-mega.
+          We have done the main algorithm and design testing using ROS.
         </p>
       </div>
     </div>
@@ -185,13 +198,18 @@
     <hr />
     <br />
 
-    <div class="subs" id="arduino">
+    <div class="subs" id="Gazebo">
       <div class="sub-text-full">
-        <h1>ARDUINO MEGA</h1>
+        <h1 style="text-align: center">Gazebo</h1>
         <p>
-          Arduino-Mega is used to control all the motor by giving commands to
-          their respective Motor drivers like Cytron, TB6600 (for Stepper Motor)
-          and Hercules (for Linear Actuators).
+          It is a 3-D Simulation tool provided by ROS. It provides a real world
+          like scenario by incorporating a programmed physics engine. We used
+          Gazebo to launch our designed model and various individual parts into
+          its pseduo real world and testing such as autonomous navigation
+          algorithm check was done by placing obstacles along the defined path.
+          <br />
+          It helps to do these testing without having to actually build any
+          parts.
         </p>
       </div>
     </div>
@@ -200,21 +218,40 @@
     <hr />
     <br />
 
-    <div class="subs" id="actuation">
+    <div class="subs" id="Sensors">
       <div class="sub-text-full">
-        <h1>ACTUATION</h1>
+        <h1 style="text-align: center">Sensors</h1>
         <p>
-          The pneumatic actuators are controlled with the help of solenoid
-          valves.
+          Sensors help to perform action based on the input feedback data in
+          real time.<br />
+          We have used HCSR04 ultrasonic sensors for purpose of obstacle
+          avoidance.
           <br />
-          The plant-storage unit is rotated by using a stepper motor and TB6600
-          motor driver.
+          To achieve waste segregation we have used capacitive proximity sensors
+          which helps in sorting waste based on dielectric properties of various
+          materials.
           <br />
-          All the motors are controlled by Arduino-Mega receiving commands from
-          Raspberry-pi and Cytron motor drivers are used.
+          QMC5883L sensor integrated with GPS and RPI-4 was used for orientation
+          purpose based on user input
+        </p>
+      </div>
+    </div>
+
+    <div class="subs" id="Algo">
+      <div class="sub-text-full">
+        <h1 style="text-align: center">Autonomous Algorithms</h1>
+        <p>
+          The Bot incoprorates sophisticated integration of various algorithms
+          to achieve its desired goals.
           <br />
-          All the Linear Actuators are controlled by Arduino-Mega using Hercules
-          motor drivers.
+          Area coverage algorithm is a state of the art algorithm to efficiently
+          cover the user defined area guided by GPS.
+          <br />
+          Obstacle avoidance algorithm helps in changing the trajectory based on
+          the obstacles encountered in the vicinity.
+          <br />
+          Orientation algorithm enables the bot to orient itself to a desired
+          direction and alter its course of trajectory.
         </p>
       </div>
     </div>
@@ -223,66 +260,24 @@
     <hr />
     <br />
 
-    <div class="subs" id="location">
+    <div class="subs" id="DL">
       <div class="sub-text-full">
-        <h1>LOCATION DETECTION</h1>
+        <h1 style="text-align: center">Deep Learning</h1>
         <p>
-          Ublox GPS module has been used to detect the exact location of the
-          bot.
+          We have mainly explored the world of Deep Learning, which was used for
+          the segregation part.
           <br />
-          GPS data is obtained using this module and used in the package of ROS
-          named MapViz which visualizes the data in the form of a red dot on the
-          map.
+          A highly efficient and accurate model was built which was tested on
+          numerous data sets of different categories of wastes.
+          <br />
+          The input for the model was taken through a camera and a smart control
+          system was used which determined the type of waste using the output of
+          the Deep Learning Model and segregated it accordingly.
         </p>
       </div>
     </div>
 
     <!--------------------------------------------------------------------------->
-
-    <!-- <div class="drishti-map">
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6327874201347!2d72.78366581502787!3d21.16700718592359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04db12023ce37%3A0xb167851a625ee547!2sDRISHTI%20-%20A%20REVOLUTIONARY%20CONCEPT!5e0!3m2!1sen!2sin!4v1618395974891!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
-
-        </iframe>
-
-    </div>
-
-    <div class="new-footer">
-        <div class="drishti-copyright">
-            <span>
-                © Drishti-SVNIT. All Rights Reserved
-            </span>
-        </div>
-
-        <div class="drishti-home">
-            <a href = "https://drishti-svnit.github.io/drishti/" target="_blank">
-                <i class="fas fa-home"></i>
-            </a>
-        </div>
-
-        <div class="drishti-social">
-            <div class = "contact-icons">
-                <a class="social-button facebook" href="https://www.facebook.com/drishti.nitsurat/" target="_blank">
-                    <i class="fab fa-facebook-square " style="vertical-align:0;"></i>
-                </a>
-                <a class="social-button insta" href="https://www.instagram.com/drishti.svnit/" target="_blank">
-                    <i class="fab fa-instagram " style="vertical-align:0;"></i>
-                </a>
-                <a class="social-button linkedin" href="https://www.linkedin.com/company/drishti-nitsurat/" target="_blank">
-                    <i class="fab fa-linkedin " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
-                </a>
-                <a class="social-button github" href="https://www.github.com/DRISHTI-SVNIT" target="_blank">
-                    <i class="fab fa-github " style="vertical-align:0;margin-bottom:0.125rem;"></i>
-                </a>
-                <a class="social-button mail" href="mailto:drishti.nitsurat@gmail.com" target="_blank">
-                    <i class="fas fa-envelope-open " style="vertical-align:0;margin-bottom:0.125rem;"></i>
-                </a>
-                <a class="social-button youtube" href="https://www.youtube.com/channel/UClAi8qJnq9VckAPOMzcPpLQ" target="_blank">
-                    <i class="fab fa-youtube " style="vertical-align:-0.125rem;margin-bottom:0.125rem;"></i>
-                </a>
-            </div>
-        </div>
-    </div> -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
